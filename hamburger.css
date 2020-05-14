@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 50%;
+}
+
+main {
+  width: 100%;
+}
+
+@media (min-width: 300px) {
+  main {
+    position: absolute;
+  }
+
+  .heading img {
+    margin: 3%;
+    padding: 0 5%;
+  }
+  #logo {
+    margin-bottom: 5%;
+  }
+
+  #close {
+    margin-left: 25%;
+  }
+
+  #nav_container {
+    background: darkblue url("images/bg-pattern-mobile-nav.svg") bottom left
+      no-repeat;
+
+    padding: 2vh 10vh 50vh 2vh;
+  }
+  .nav a {
+    display: block;
+    width: 100%;
+    margin: 5%;
+    padding: 5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+  }
+  #view_plan {
+    margin: 5%;
+    padding: 5%;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    border: 1px solid white;
+    color: white;
+  }
+}
