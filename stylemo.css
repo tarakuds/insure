@@ -38,6 +38,14 @@ body {
     z-index: 1;
     display: inline;
   }
+  section.header > #title > div {
+    /* background: black  bottom
+	  right no-repeat; */
+    /* position: absolute; */
+
+    background-color: black;
+    top: 1000%;
+  }
 
   section.header > #title > div > div.title {
     background-color: darkblue;
